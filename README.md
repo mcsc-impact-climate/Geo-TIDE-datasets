@@ -1,9 +1,9 @@
 # GeoJSON files to Support Trucking Industry Decarbonization Planning
 
 ## Summary
-This dataset provides GeoJSON files developed by the MIT Climate & Sustainability Consortium for geospatial visualization and analysis of opportunities to transition trucking fleets in the U.S. to low-carbon energy carriers. The layers are synthesized from diverse federal sources, including BTS, FHWA, EPA, DOE, and EIA, and have been geometry-simplified, normalized, and thematically grouped to support transition planning. 
+This dataset provides GeoJSON files developed by the MIT Climate & Sustainability Consortium (MCSC) for geospatial visualization and analysis of opportunities to transition trucking fleets in the U.S. to low-carbon energy carriers. The layers are synthesized from diverse federal sources, including BTS, FHWA, EPA, DOE, and EIA, and have been geometry-simplified, normalized, and thematically grouped to support transition planning. 
 
-The Geospatial Trucking Industry Decarbonization Explorer (Geo-TIDE) is an interactive web interface that allows users to geospatially visualize and overlay the GeoJSON files contained in this dataset to support opportunity identification and transition planning. 
+The MCSC's Geospatial Trucking Industry Decarbonization Explorer (Geo-TIDE) is an interactive web interface that allows users to geospatially visualize and overlay the GeoJSON files contained in this dataset to support opportunity identification and transition planning. 
 
 ## Data
 
@@ -13,10 +13,11 @@ The GeoJSON files are stored on a public AWS S3 bucket, and will soon be hosted 
 
 Area features are bounded regions such as states, represented in the GeoJSON files as Polygon or MultiPolygon objects. Highway features are connected highway links, represented as LineString objects. Point features are localized objects such as charging/refueling stations or hydrogen production facilities, represented with Point objects.
 
+**Table 1: Summary of GeoJSON dataset categories and sources**
 <table>
   <thead>
     <tr>
-      <th>Data Layer</th>
+      <th>Categories</th>
       <th>Filename(s)</th>
       <th>Original Data Source(s)</th>
       <th>Reference Section in the <a href=https://dspace.mit.edu/handle/1721.1/159069>Geo-TIDE Technical Guide</a></th>
@@ -158,7 +159,17 @@ The Geo-TIDE tool can also be hosted locally - while still dynamically downloadi
 
 ### Amazon S3
 
+The GeoJSON dataset can also be accessed direcly on [AWS S3](https://aws.amazon.com/s3/) at s3://mcsc-datahub-public/geojsons_simplified/, where geojson files are organized into the categories described in Table 1 above. For example, to access the GeoJSON file that encodes commercial electricity prices, one would use the following S3 URI:
+
+`s3://mcsc-datahub-public/geojsons_simplified/electricity_rates_by_state_merged.geojson`
+
 ### CLI
+
+Files can also be downloaded directly, where the download url is constructed by prepending the filename with `https://mcsc-datahub-public.s3.us-west-2.amazonaws.com/geojsons_simplified/`. Eg.
+
+[`https://mcsc-datahub-public.s3.us-west-2.amazonaws.com/geojsons_simplified/electricity_rates_by_state_merged.geojson`](https://mcsc-datahub-public.s3.us-west-2.amazonaws.com/geojsons_simplified/electricity_rates_by_state_merged.geojson)
+
+
 
 ## Tutorials
 
