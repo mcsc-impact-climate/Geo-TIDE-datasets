@@ -142,17 +142,19 @@ Area features are bounded regions such as states, represented in the GeoJSON fil
 
 ### Geo-TIDE
 
-The Geo-TIDE tool provides an interactive platform to directly visualize, overlay, and download the GeoJSON files. A public version of the Geo-TIDE tool is hosted on the MIT Climate & Sustainability Consortium's DataHub website. The public tool can be accessed as follows:
+The Geo-TIDE tool provides an interactive platform to dynamically visualize, overlay, and download the GeoJSON files stored on the AWS S3 bucket. A public version of the Geo-TIDE tool is hosted on the MIT Climate & Sustainability Consortium's DataHub website. The public tool can be accessed as follows:
 
 1. Register for a free MCSC DataHub account here: https://climatedata.mit.edu/users/register/
 2. Log into your account here: https://climatedata.mit.edu/users/login/
 3. Access the tool at: https://climatedata.mit.edu/faf5/transportation/
 
-Once the tool is open, you can click on the blue 'More' button next to any layer in the Public Data selection box to view information about the layer and its sources, and click on `Link to download the geojson file(s)` near the bottom to download the GeoJSON file (or set of files) that the layer is visualizing. This procedure is demoed in the video below:
+Once the tool is open, you can click on the blue 'More' button next to any layer in the Public Data selection box to view information about the layer and its sources, and click on 🔗 *Link to download the geojson file(s)* near the bottom to download the GeoJSON file (or set of files) that the layer is visualizing. This procedure is demoed in the video below:
 
+[![Downloading GeoJSON files from Geo-TIDE](https://img.youtube.com/vi/k-r20hzqPz0/hqdefault.jpg)](https://www.youtube.com/watch?v=k-r20hzqPz0)
 
+The Geo-TIDE tool can also be hosted locally - while still dynamically downloading the GeoJSON files from the S3 bucket - by cloning the [Geo-TIDE frontend code](https://github.com/mcsc-impact-climate/Geo-TIDE) and following the instructions in the README. 
 
-The Geo-TIDE tool can also be hosted locally by cloning the [Geo-TIDE frontend code](https://github.com/mcsc-impact-climate/Geo-TIDE) and following the instructions in the README. Note that the locally-hosted version of the tool excludes the private data upload and overlay feature available on the public tool, as this is facilitated by the DataHub website that the public tool is integrated with. 
+**Note that the locally-hosted version of the tool excludes the private data upload and overlay feature available on the public tool, as this is facilitated by the DataHub website that the public tool is integrated with. 
 
 ### Amazon S3
 
