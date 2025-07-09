@@ -9,18 +9,17 @@ The Geospatial Trucking Industry Decarbonization Explorer (Geo-TIDE) is an inter
 
 Each GeoJSON file encodes geospatial features such as states, highways, and facilities in Web Mercator format (EPSG:3857). In most files, the geospatial features have associated attributes, which can be visualized as gradients on the Geo-TIDE interface or other GIS software such as QGIS.  
 
-The GeoJSON files are stored on a public AWS S3 bucket, and will soon be hosted by the AWS Open Data Sponsorship Program. The table below summarizes the major categories of files included in the dataset, broken down according to their geospatial format. More information and attributions to original data sources can be found in [this Zenodo record](https://zenodo.org/records/15851359). 
+The GeoJSON files are stored on a public AWS S3 bucket, and will soon be hosted by the AWS Open Data Sponsorship Program. The table below summarizes the major categories of files included in the dataset, broken down according to their geospatial format. More information and attributions to original data sources can be found in [this Zenodo record](https://zenodo.org/records/15851359).
 
 Area features are bounded regions such as states, represented in the GeoJSON files as Polygon or MultiPolygon objects. Highway features are connected highway links, represented as LineString objects. Point features are localized objects such as charging/refueling stations or hydrogen production facilities, represented with Point objects.
 
-### Summary of file categories
 <table>
   <thead>
     <tr>
       <th>Data Layer</th>
       <th>Filename(s)</th>
       <th>Original Data Source(s)</th>
-      <th>Reference Section in Technical Guide</th>
+      <th>Reference Section in the <a href=https://dspace.mit.edu/handle/1721.1/159069>Geo-TIDE Technical Guide</a></th>
     </tr>
   </thead>
   <tbody>
@@ -127,7 +126,7 @@ Area features are bounded regions such as states, represented in the GeoJSON fil
       <td>Savings from Pooled Charging Infrastructure</td>
       <td>infrastructure_pooling_thought_experiment/*.geojson</td>
       <td>Freight Analysis Framework (ORNL, BTS, FHWA)</td>
-      <td>None (see instead: [MacDonell & Borrero, 2024](https://dspace.mit.edu/handle/1721.1/153617))</td>
+      <td>None (see instead: <a href="https://dspace.mit.edu/handle/1721.1/153617">MacDonell & Borrero, 2024</a>)</td>
     </tr>
     <tr><th colspan="4">Multiple Features</th></tr>
     <tr>
@@ -139,17 +138,21 @@ Area features are bounded regions such as states, represented in the GeoJSON fil
   </tbody>
 </table>
 
-
-
 ## Data Access
 
 ### Geo-TIDE
 
-The Geo-TIDE tool provides an interactive platform to directly visualize, overlay, and download the GeoJSON files. A public version of the Geo-TIDE tool is hosted on the MIT Climate & Sustainability Consortium's DataHub website. 
+The Geo-TIDE tool provides an interactive platform to directly visualize, overlay, and download the GeoJSON files. A public version of the Geo-TIDE tool is hosted on the MIT Climate & Sustainability Consortium's DataHub website. The public tool can be accessed as follows:
+
+1. Register for a free MCSC DataHub account here: https://climatedata.mit.edu/users/register/
+2. Log into your account here: https://climatedata.mit.edu/users/login/
+3. Access the tool at: https://climatedata.mit.edu/faf5/transportation/
+
+Once the tool is open, you can click on the blue 'More' button next to any layer in the Public Data selection box to view information about the layer and its sources, and click on `Link to download the geojson file(s)` near the bottom to download the GeoJSON file (or set of files) that the layer is visualizing. This procedure is demoed in the video below:
 
 
 
-The Geo-TIDE tool can also be hosted locally using the . Note that the locally-hosted version of the tool excludes the private data upload and overlay feature available on the public tool, as this is facilitated by the DataHub 
+The Geo-TIDE tool can also be hosted locally by cloning the [Geo-TIDE frontend code](https://github.com/mcsc-impact-climate/Geo-TIDE) and following the instructions in the README. Note that the locally-hosted version of the tool excludes the private data upload and overlay feature available on the public tool, as this is facilitated by the DataHub website that the public tool is integrated with. 
 
 ### Amazon S3
 
