@@ -28,25 +28,25 @@ Area features are bounded regions such as states, represented in the GeoJSON fil
     <tr>
       <td>Truck Imports and Exports</td>
       <td>faf5_freight_flows/*.geojson</td>
-      <td>FAF5, USDOT</td>
+      <td>Freight Analysis Framework (ORNL, BTS, FHWA), VIUS (BTS) GREET Lifecycle Model (ANL) </td>
       <td>4.1, 5.3, 4.2, A.1</td>
     </tr>
     <tr>
       <td>Grid Emission Intensity</td>
       <td>grid_emission_intensity/*.geojson</td>
-      <td>EPA eGRID, NREL Cambium</td>
+      <td>eGRID (EPA)</td>
       <td>5.1</td>
     </tr>
     <tr>
       <td>Hourly Grid Emissions</td>
       <td>daily_grid_emission_profiles/*.geojson</td>
-      <td>NREL Cambium</td>
+      <td>Electricity Maps</td>
       <td>5.2</td>
     </tr>
     <tr>
       <td>Grid Generation and Capacity</td>
       <td>gen_cap_2022_state_merged.geojson</td>
-      <td>EIA Form 860, 923</td>
+      <td>EIA</td>
       <td>6.1, A.2</td>
     </tr>
     <tr>
@@ -58,88 +58,82 @@ Area features are bounded regions such as states, represented in the GeoJSON fil
     <tr>
       <td>Maximum Demand Charge (utility- and state-level)</td>
       <td>demand_charges_merged.geojson<br>demand_charges_by_state.geojson</td>
-      <td>Utility Tariffs, NREL dGen</td>
+      <td>NREL</td>
       <td>5.1</td>
     </tr>
     <tr>
       <td>Planned Infrastructure Projects (regions)</td>
       <td>bayarea.geojson<br>saltlake.geojson</td>
-      <td>USDOT, FHWA, State DOTs</td>
+      <td>DOE</td>
       <td>4.3</td>
     </tr>
     <tr>
       <td>State-Level Incentives and Regulations</td>
       <td>incentives_and_regulations/*.geojson</td>
-      <td>DSIRE, NASEO, State Websites</td>
+      <td>AFDC (DOE EERE)</td>
       <td>4.4</td>
     </tr>
     <tr>
-      <td>Lifecycle Truck Emissions</td>
-      <td>costs_and_emissions/*emissions_per_mile*.geojson</td>
-      <td>GREET, AFLEET, ICCT</td>
-      <td>7.1, A.3</td>
-    </tr>
-    <tr>
-      <td>Total Cost of Truck Ownership</td>
-      <td>costs_and_emissions/costs_per_mile*.geojson</td>
-      <td>ATRI, NACFE, OEM Data</td>
+      <td>Lifecycle Truck Emissions and Cost of Ownership</td>
+      <td>costs_and_emissions/*.geojson</td>
+      <td>NACFE, eGRID (EPA), EIA, ICCT, Minnesota DOT, motormatchup.com, notateslaapp.com </td>
       <td>7.1, A.3</td>
     </tr>
     <tr>
       <td>Energy Demand from Electrified Trucking</td>
       <td>trucking_energy_demand.geojson</td>
-      <td>This Study (Geo-TIDE), EIA</td>
+      <td>Freight Analysis Framework (ORNL, BTS, FHWA) & sources listed in above row</td>
       <td>6.1, A.2</td>
     </tr>
     <tr><th colspan="4">Highway Features</th></tr>
     <tr>
       <td>Interstate Highway Flows</td>
       <td>highway_assignment_links_interstate.geojson</td>
-      <td>FAF5</td>
+      <td>Freight Analysis Framework (ORNL, BTS, FHWA)</td>
       <td>4.5</td>
     </tr>
     <tr>
       <td>Planned Infrastructure Corridors</td>
       <td>northeast.geojson<br>midwest.geojson<br>la_i710.geojson<br>h2la.geojson<br>northeast.geojson</td>
-      <td>USDOT, DOE Joint Office</td>
+      <td>DOE</td>
       <td>4.3</td>
     </tr>
     <tr><th colspan="4">Point Features</th></tr>
     <tr>
       <td>Charge/Fuel Stations</td>
       <td>US_*.geojson</td>
-      <td>AFDC, Alternative Fuels Data Center</td>
+      <td>AFDC (DOE EERE)</td>
       <td>4.6</td>
     </tr>
     <tr>
       <td>Hydrogen Production Facilities</td>
       <td>electrolyzer_*.geojson<br>refinery.geojson</td>
-      <td>DOE Hydrogen Infrastructure</td>
+      <td>DOE, PNNL</td>
       <td>4.7</td>
     </tr>
     <tr>
       <td>Truck Stop Parking Locations</td>
       <td>Truck_Stop_Parking.geojson</td>
-      <td>Private Aggregators (e.g., Trucker Path), AFDC</td>
+      <td>BTS</td>
       <td>4.8</td>
     </tr>
     <tr>
       <td>Principal Ports</td>
       <td>Principal_Port.geojson</td>
-      <td>BTS, USACE</td>
+      <td>BTS</td>
       <td>4.8</td>
     </tr>
     <tr>
       <td>Savings from Pooled Charging Infrastructure</td>
       <td>infrastructure_pooling_thought_experiment/*.geojson</td>
-      <td>Geo-TIDE Analysis</td>
-      <td>4.9</td>
+      <td>Freight Analysis Framework (ORNL, BTS, FHWA)</td>
+      <td>None (see instead: [MacDonell & Borrero, 2024](https://dspace.mit.edu/handle/1721.1/153617))</td>
     </tr>
     <tr><th colspan="4">Multiple Features</th></tr>
     <tr>
       <td>National ZEF Corridor Strategy</td>
       <td>ZEF_Corridor_Strategy/*.geojson</td>
-      <td>DOE Joint Office, US DOT</td>
+      <td>DOE, Joint Office of Energy and Transportation</td>
       <td>4.10</td>
     </tr>
   </tbody>
