@@ -192,7 +192,7 @@ The following tutorials walk through sample transition planning assessments that
 
 1. [Geo-TIDE access and getting-started exercises](https://danikam16.wixsite.com/mysite/post/accessing-and-using-the-mcsc-s-interactive-geospatial-decision-support-tool-for-trucking-fleet-decar)
 2. [Which logistics facilities should a return-to-base carrier target for fleet electrification and chargers?](https://docs.google.com/presentation/d/e/2PACX-1vQZccVHZVT1QRNdhCRRI810UxGvCD3hJhxIE4CzBDbhNr9iecHV5lp2Rv87x6rik1wrCiXXUq0WfuBk/pub?start=false&loop=false&delayms=3000#slide=id.p)
-3. [IWhich routes should a dry-van carrier prioritize for investment in battery electric or hydrogen trucks?](https://danikam16.wixsite.com/mysite/post/user-case-studies-for-interactive-geospatial-trucking-fleet-decision-support)
+3. [Which routes should a dry-van carrier prioritize for investment in battery electric or hydrogen trucks?](https://danikam16.wixsite.com/mysite/post/user-case-studies-for-interactive-geospatial-trucking-fleet-decision-support)
 
 ## License
 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
