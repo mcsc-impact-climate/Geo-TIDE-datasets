@@ -200,3 +200,19 @@ The following tutorials walk through sample transition planning assessments that
 ## Suggested Attribution
 Eamer, D., Borrero, M., Bashir, N., & MIT Climate & Sustainability Consortium. (2025). GeoJSON files for the MCSC's Trucking Industry Decarbonization Explorer (Geo-TIDE) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15851359
 
+## Publications
+1. Eamer, Danika, Borrero, Micah, Bao, Brooke, Kasami, Brilant, and De Figueiredo Valente, Helena. Geospatial Trucking Industry Decarbonization Explorer (Geo-TIDE): Technical Guide and Methodology. MIT Climate & Sustainability Consortium, April 11, 2025. https://dspace.mit.edu/handle/1721.1/159069
+2. MacDonell, Danika and Borrero, Micah. Thought Experiment to Explore Potential Savings from Pooled Charging Infrastructure Investment. MIT Climate & Sustainability Consortium, February 29, 2024. https://dspace.mit.edu/handle/1721.1/153617
+
+## Blog Posts
+
+| **Date**       | **Title (with Access Link)** | **Author(s)** |
+|----------------|------------------------------|----------------|
+| January 2025   | [New data upload and overlay feature supports custom fleet transition assessment with the Geo-TIDE tool](https://danikam16.wixsite.com/mysite/post/new-data-upload-and-overlay-feature-supports-custom-fleet-transition-assessment-with-the-geo-tide) | Danika Eamer |
+| September 2024 | [New interactive click feature allows users to delve into incentives and regulations to support trucking fleet decarbonization](https://danikam16.wixsite.com/mysite/post/new-interactive-click-feature-allows-users-to-dive-into-incentives-and-regulations-to-support-trucki) | Brooke Bao and Danika Eamer |
+| May 2024       | [Accessing and using the MCSC's interactive geospatial decision support tool for trucking fleet decarbonization](https://danikam16.wixsite.com/mysite/post/accessing-and-using-the-mcsc-s-interactive-geospatial-decision-support-tool-for-trucking-fleet-decar) | Danika Eamer and Helena De Figueiredo Valente |
+| April 2024     | [User case study for interactive geospatial trucking fleet decision support](https://danikam16.wixsite.com/mysite/post/user-case-studies-for-interactive-geospatial-trucking-fleet-decision-support) | Danika Eamer and Helena De Figueiredo Valente |
+| January 2024   | [Interactive geospatial decision support tool for trucking industry stakeholders](https://danikam16.wixsite.com/mysite/post/user-interactive-geospatial-decision-support-tool-is-now-online) | Danika Eamer |
+| June 2023      | [Geospatial decision support for fleets](https://danikam16.wixsite.com/mysite/post/geospatial-decision-support-for-fleets) | Danika Eamer |
+| March 2023     | [Visualizing freight data from the FAF5 database](https://danikam16.wixsite.com/mysite/post/faf5-visualization) | Danika Eamer |
+
