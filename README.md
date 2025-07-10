@@ -159,15 +159,16 @@ The Geo-TIDE tool can also be hosted locally - while still dynamically downloadi
 
 ### Access on Amazon S3
 
-The GeoJSON dataset can also be accessed direcly on [AWS S3](https://aws.amazon.com/s3/) at s3://mcsc-datahub-public/geojsons_simplified/, where geojson files are organized into the categories described in Table 1 above. For example, to access the GeoJSON file that encodes commercial electricity prices, one would use the following S3 URI:
+The GeoJSON dataset can also be accessed direcly on [AWS S3](https://aws.amazon.com/s3/) at `s3://mcsc-geotide-geojson-files/geojson_files/`, where geojson files are organized into the categories described in Table 1 above. For example, to access the GeoJSON file that encodes commercial electricity prices, one would use the following S3 URI:
 
-`s3://mcsc-datahub-public/geojsons_simplified/electricity_rates_by_state_merged.geojson`
+`s3://mcsc-geotide-geojson-files/geojson_files/electricity_rates_by_state_merged.geojson`
+
 
 ### Download via URL
 
 Files can also be downloaded directly, where the download url is constructed by prepending the filename with `https://mcsc-datahub-public.s3.us-west-2.amazonaws.com/geojsons_simplified/`. Eg.
 
-[`https://mcsc-datahub-public.s3.us-west-2.amazonaws.com/geojsons_simplified/electricity_rates_by_state_merged.geojson`](https://mcsc-datahub-public.s3.us-west-2.amazonaws.com/geojsons_simplified/electricity_rates_by_state_merged.geojson)
+[`https://mcsc-geotide-geojson-files.s3.us-west-2.amazonaws.com/geojson_files/electricity_rates_by_state_merged.geojson`](https://mcsc-geotide-geojson-files.s3.us-west-2.amazonaws.com/geojson_files/electricity_rates_by_state_merged.geojson)
 
 ### Download via CLI
 
@@ -176,14 +177,14 @@ S3 objects can also be downloaded via the AWS CLI. See these instructions for [i
 To download a specific file (eg. commercial electricity prices):
 
 ```bash
-aws s3 cp s3://mcsc-datahub-public/geojsons_simplified/electricity_rates_by_state_merged.geojson .
+aws s3 cp s3://mcsc-geotide-geojson-files/geojson_files/electricity_rates_by_state_merged.geojson .
 ```
 
 To download all the GeoJSON files (appx. 1.5 GB):
 
 ```bash
-mkdir geojsons_simplified
-aws s3 cp s3://mcsc-datahub-public/geojsons_simplified/ geojsons_simplified --recursive
+mkdir geojson_files
+aws s3 cp s3://mcsc-geotide-geojson-files/geojson_files/ geojson_files --recursive
 ```
 
 ## Tutorials
