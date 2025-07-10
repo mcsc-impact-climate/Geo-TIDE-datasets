@@ -1,4 +1,4 @@
-# GeoJSON files to Support Trucking Industry Decarbonization Planning
+# GeoJSON Data to Support Trucking Industry Decarbonization Planning
 
 ## Summary
 This dataset provides GeoJSON files developed by the MIT Climate & Sustainability Consortium (MCSC) for geospatial visualization and analysis of opportunities to transition trucking fleets in the U.S. to low-carbon energy carriers. The layers are synthesized from diverse federal sources, including BTS, FHWA, EPA, DOE, and EIA, and have been geometry-simplified, normalized, and thematically grouped to support transition planning. 
