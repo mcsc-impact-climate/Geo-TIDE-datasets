@@ -166,7 +166,7 @@ The GeoJSON dataset can also be accessed direcly on [AWS S3](https://aws.amazon.
 
 ### Download via URL
 
-Files can also be downloaded directly, where the download url is constructed by prepending the filename with `https://mcsc-datahub-public.s3.us-west-2.amazonaws.com/geojsons_simplified/`. Eg.
+Files can also be downloaded directly, where the download url is constructed by prepending the filename with `https://mcsc-geotide-geojson-files.s3.us-west-2.amazonaws.com/geojson_files/`. Eg.
 
 [`https://mcsc-geotide-geojson-files.s3.us-west-2.amazonaws.com/geojson_files/electricity_rates_by_state_merged.geojson`](https://mcsc-geotide-geojson-files.s3.us-west-2.amazonaws.com/geojson_files/electricity_rates_by_state_merged.geojson)
 
